@@ -1,0 +1,45 @@
+Adobe Profile to be added in Settings.XML:
+
+<profile>	
+ 	
+                <id>adobe-public</id>	
+ 	
+                <activation>	
+ 	
+                    <activeByDefault>true</activeByDefault>	
+ 	
+                </activation>	
+ 	
+                <repositories>	
+ 	
+                  <repository>	
+ 	
+                    <id>adobe</id>	
+ 	
+                    <name>Nexus Proxy Repository</name>	
+ 	
+                    <url>https://repo.adobe.com/nexus/content/groups/public/</url>	
+ 	
+                    <layout>default</layout>	
+ 	
+                  </repository>	
+ 	
+                </repositories>	
+ 	
+                <pluginRepositories>	
+ 	
+                  <pluginRepository>	
+ 	
+                    <id>adobe</id>	
+ 	
+                    <name>Nexus Proxy Repository</name>	
+ 	
+                    <url>https://repo.adobe.com/nexus/content/groups/public/</url>	
+ 	
+                    <layout>default</layout>	
+ 	
+                  </pluginRepository>	
+ 	
+                </pluginRepositories>	
+ 	
+            </profile>	

@@ -1,3 +1,3 @@
 Command to Create AEM project using Maven Archtype 24:
 
-mvn -B archetype:generate -D archetypeGroupId=com.adobe.aem  -D archetypeArtifactId=aem-project-archetype  -D archetypeVersion=24   -D appTitle="AEM Indra"   -D appId="aemindra"  -D groupId="com.aemindra"  -D aemVersion="6.5.0"  -D frontendModule="general"  -D singleCountry="n"  -D includeExamples="y"  -D includeForms="y" -D language="en" -D country="US" D includeDispatcherConfig="n"
+mvn -B archetype:generate -D archetypeGroupId=com.adobe.aem  -D archetypeArtifactId=aem-project-archetype  -D archetypeVersion=24   -D appTitle="AEM Indra"   -D appId="aemindra"  -D groupId="com.aemindra"  -D aemVersion="6.5.0"  -D frontendModule="general"  -D singleCountry="n"  -D includeExamples="y"  -D includeForms="y" -D language="en" -D country="US" -D includeDispatcherConfig="n"
